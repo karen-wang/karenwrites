@@ -3,12 +3,6 @@
 	font-family: 'Vollkorn', serif;
 	background-color: #fffefa;
 }
-.center {
-	text-align: center;
-	width: 500px;
-    margin-right: auto;
-    margin-left: auto;
-}
 .logo {
 	width: 50px;
 }
@@ -28,4 +22,34 @@ h4 {
 }
 p {
 	font-size: 1em;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+	.center {
+		text-align: center;
+		width: 100%;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.center {
+		text-align: center;
+		width: 400px;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+	.center {
+		text-align: center;
+		width: 500px;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
 }
